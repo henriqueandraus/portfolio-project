@@ -1,5 +1,7 @@
 import useFadeUp from './hooks/useFadeUp'
 import Header from './components/Header'
+import About from './components/About'
+import Skills from './components/Skills'
 
 export default function App() {
   useFadeUp()
@@ -8,7 +10,8 @@ export default function App() {
     <>
       <Header />
       <main>
-        <p className="p-8 text-[#1E2235]">Components coming soon...</p>
+        <About />
+        <Skills />
       </main>
     </>
   )
