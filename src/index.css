@@ -102,4 +102,8 @@ nav a:hover::after {
 .stagger-5 { transition-delay: 0.25s; }
 .stagger-6 { transition-delay: 0.30s; }
 .stagger-7 { transition-delay: 0.35s; }
-.stagger-8 { transition-delay: 0.40s; }
+.stagger-8  { transition-delay: 0.40s; }
+.stagger-9  { transition-delay: 0.45s; }
+.stagger-10 { transition-delay: 0.50s; }
+.stagger-11 { transition-delay: 0.55s; }
+.stagger-12 { transition-delay: 0.60s; }

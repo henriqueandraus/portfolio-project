@@ -1,8 +1,9 @@
 import skills from '../data/skills'
 
 const staggerClasses = [
-  'stagger-1', 'stagger-2', 'stagger-3', 'stagger-4',
-  'stagger-5', 'stagger-6', 'stagger-7', 'stagger-8',
+  'stagger-1', 'stagger-2', 'stagger-3',  'stagger-4',
+  'stagger-5', 'stagger-6', 'stagger-7',  'stagger-8',
+  'stagger-9', 'stagger-10', 'stagger-11', 'stagger-12',
 ]
 
 export default function Skills() {
