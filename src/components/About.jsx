@@ -2,11 +2,11 @@ import profilePhoto from '../assets/images/Foto Henrique.JPG'
 
 export default function About() {
   return (
-    <section id="about" className="flex items-center justify-center gap-[100px] max-w-[1200px] mx-auto my-[80px] px-8">
+    <section id="about" className="flex flex-col md:flex-row items-center justify-center gap-10 md:gap-[100px] max-w-[1200px] mx-auto my-[80px] px-8">
 
-      <div className="shrink-0 relative float-anim">
+      <div className="shrink-0 relative float-anim mx-auto md:mx-0">
         <img
-          className="relative block w-[460px] h-[400px] object-cover rounded-2xl border border-[#1E2235]/20 p-2 bg-white shadow-xl"
+          className="relative block w-full max-w-[340px] h-[300px] md:w-[460px] md:h-[400px] object-cover rounded-2xl border border-[#1E2235]/20 p-2 bg-white shadow-xl"
           style={{ zIndex: 1 }}
           src={profilePhoto}
           alt="Henrique Andraus"
@@ -17,17 +17,17 @@ export default function About() {
         />
       </div>
 
-      <div className="max-w-[560px] hero-text">
+      <div className="max-w-[560px] hero-text text-center md:text-left">
         <span className="inline-block text-xs font-bold tracking-[0.2em] text-[#FFCC00] bg-[#1E2235] px-4 py-2 rounded-full mb-6 uppercase">
           Full Stack Developer
         </span>
-        <h1 className="text-[50px] leading-[1.1] mb-6 text-[#1E2235] font-bold">
+        <h1 className="text-[36px] md:text-[50px] leading-[1.1] mb-6 text-[#1E2235] font-bold">
           Hello, I'm<br />Henrique Andraus
         </h1>
         <p className="text-lg leading-[1.8] text-[#1E2235]/75">
           I'm a passionate Full Stack Developer with experience in building web applications using JavaScript, React, Node.js, and more. I enjoy creating efficient and scalable solutions to solve complex problems.
         </p>
-        <div className="flex gap-4 mt-10">
+        <div className="flex flex-col sm:flex-row justify-center md:justify-start gap-4 mt-10">
           <a
             href="#projects"
             className="inline-block px-8 py-3.5 bg-[#1E2235] text-[#F9EFE7] rounded-xl font-semibold transition-all duration-300 hover:bg-[#FFCC00] hover:text-[#1E2235] hover:shadow-lg hover:-translate-y-0.5"
