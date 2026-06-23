@@ -38,15 +38,15 @@ export default function Contact() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-start">
 
         {/* Coluna esquerda — texto */}
-        <div>
-          <h2 className="text-[40px] font-bold text-[#1E2235] mb-4">Get In Touch</h2>
+        <div className="self-start">
+          <h2 className="text-[40px] font-bold text-[#1E2235] mt-0 mb-4">Get In Touch</h2>
           <p className="text-lg text-[#1E2235]/65 leading-relaxed max-w-[380px]">
             I'm currently open to new opportunities. Whether you have a question or just want to say hi, feel free to reach out!
           </p>
         </div>
 
         {/* Coluna direita — formulário */}
-        <div>
+        <div className="self-start">
           {status === 'success' ? (
             <div className="bg-white border border-[#1E2235]/10 rounded-2xl p-10 text-center">
               <p className="text-[#1E2235] font-semibold text-lg mb-2">Mensagem enviada!</p>
