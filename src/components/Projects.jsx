@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import projects from '../data/projects'
 
-const staggerClasses = ['stagger-1', 'stagger-2', 'stagger-3']
+const staggerClasses = ['stagger-1', 'stagger-2', 'stagger-3', 'stagger-4']
 
 function ProjectCard({ project, stagger }) {
   const [expanded, setExpanded] = useState(false)
@@ -64,7 +64,7 @@ export default function Projects() {
         <p className="text-[#1E2235]/50 mt-3 text-base">Things I've built</p>
       </div>
 
-      <div className="grid grid-cols-3 gap-6 max-w-[1200px] mx-auto items-start">
+      <div className="grid grid-cols-4 gap-6 max-w-[1200px] mx-auto items-start">
         {projects.map((project, i) => (
           <ProjectCard key={project.title} project={project} stagger={staggerClasses[i]} />
         ))}

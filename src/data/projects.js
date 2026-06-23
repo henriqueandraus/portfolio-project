@@ -20,6 +20,13 @@ const projects = [
     tags: ['React', 'Redux', 'Vite', 'Jest'],
     githubUrl: 'https://github.com/henriqueandraus/reddit-app',
   },
+  {
+    title: 'Portfolio',
+    description:
+      'Personal developer portfolio built with React and Vite, styled with Tailwind CSS. Features animated sections, a projects showcase, a skills grid, and a contact form integrated with Formspree. Deployed on Vercel.',
+    tags: ['React', 'Vite', 'Tailwind CSS', 'Formspree'],
+    githubUrl: 'https://github.com/henriqueandraus/portfolio-project',
+  },
 ]
 
 export default projects
