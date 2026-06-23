@@ -2,7 +2,7 @@
 
 Personal developer portfolio showcasing my projects, skills, and contact information.
 
-**Live:** [henriqueandraus.vercel.app](https://henriqueandraus.vercel.app)
+**Live:** [portfolio-henrique-andraus.vercel.app](https://portfolio-henrique-andraus.vercel.app)
 
 ## Tech Stack
 
