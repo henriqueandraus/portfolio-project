@@ -57,14 +57,14 @@ function ProjectCard({ project, stagger }) {
 
 export default function Projects() {
   return (
-    <section id="projects" className="max-w-[1200px] mx-auto my-[120px] px-8">
+    <section id="projects" className="max-w-[1600px] mx-auto my-[120px] px-8">
 
       <div className="text-center mb-[60px] fade-up">
         <h2 className="text-[40px] font-bold text-[#1E2235]">Projects</h2>
         <p className="text-[#1E2235]/50 mt-3 text-base">Things I've built</p>
       </div>
 
-      <div className="grid grid-cols-4 gap-6 max-w-[1200px] mx-auto items-start">
+      <div className="grid grid-cols-4 gap-6 mx-auto items-start">
         {projects.map((project, i) => (
           <ProjectCard key={project.title} project={project} stagger={staggerClasses[i]} />
         ))}
