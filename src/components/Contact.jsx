@@ -35,11 +35,11 @@ export default function Contact() {
   return (
     <section id="contact" className="max-w-[1100px] mx-auto my-[120px] px-8 fade-up">
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-start">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-16 items-start">
 
         {/* Coluna esquerda — texto */}
         <div className="self-start">
-          <h2 className="text-[40px] font-bold text-[#1E2235] mt-0 mb-4">Get In Touch</h2>
+          <h2 className="text-[32px] md:text-[40px] font-bold text-[#1E2235] mt-0 mb-4">Get In Touch</h2>
           <p className="text-lg text-[#1E2235]/65 leading-relaxed max-w-[380px]">
             I'm currently open to new opportunities. Whether you have a question or just want to say hi, feel free to reach out!
           </p>
