@@ -35,7 +35,7 @@ export default function Contact() {
   return (
     <section id="contact" className="max-w-[1100px] mx-auto my-[120px] px-8 fade-up">
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-start">
 
         {/* Coluna esquerda — texto */}
         <div>
