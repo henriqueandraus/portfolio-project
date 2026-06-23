@@ -64,7 +64,7 @@ export default function Projects() {
         <p className="text-[#1E2235]/50 mt-3 text-base">Things I've built</p>
       </div>
 
-      <div className="grid grid-cols-4 gap-6 mx-auto items-start">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 mx-auto items-start">
         {projects.map((project, i) => (
           <ProjectCard key={project.title} project={project} stagger={staggerClasses[i]} />
         ))}
