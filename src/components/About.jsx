@@ -6,7 +6,7 @@ export default function About() {
 
       <div className="shrink-0 relative float-anim mx-auto md:mx-0">
         <img
-          className="relative block w-full max-w-[340px] h-[300px] md:w-[460px] md:h-[400px] object-cover rounded-2xl border border-[#1E2235]/20 p-2 bg-white shadow-xl"
+          className="relative block w-full max-w-[340px] h-[300px] md:max-w-none md:w-[460px] md:h-[400px] object-cover rounded-2xl border border-[#1E2235]/20 p-2 bg-white shadow-xl"
           style={{ zIndex: 1 }}
           src={profilePhoto}
           alt="Henrique Andraus"
