@@ -37,6 +37,7 @@ export default function Header() {
 
           {/* Botão hamburger mobile */}
           <button
+            type="button"
             className="md:hidden flex flex-col justify-center items-center w-8 h-8 gap-1.5 py-4"
             onClick={() => setMenuOpen(o => !o)}
             aria-label="Toggle menu"

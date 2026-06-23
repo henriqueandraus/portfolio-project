@@ -60,7 +60,7 @@ export default function Projects() {
     <section id="projects" className="max-w-[1600px] mx-auto my-[120px] px-8">
 
       <div className="text-center mb-[60px] fade-up">
-        <h2 className="text-[40px] font-bold text-[#1E2235]">Projects</h2>
+        <h2 className="text-[28px] md:text-[40px] font-bold text-[#1E2235]">Projects</h2>
         <p className="text-[#1E2235]/50 mt-3 text-base">Things I've built</p>
       </div>
 

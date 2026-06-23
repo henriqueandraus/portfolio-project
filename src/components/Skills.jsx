@@ -11,7 +11,7 @@ export default function Skills() {
     <section id="skills" className="max-w-[1100px] mx-auto my-[120px] px-8">
 
       <div className="text-center mb-[60px] fade-up">
-        <h2 className="text-[40px] font-bold text-[#1E2235]">Skills & Technologies</h2>
+        <h2 className="text-[28px] md:text-[40px] font-bold text-[#1E2235]">Skills & Technologies</h2>
         <p className="text-[#1E2235]/50 mt-3 text-base">Tools I work with every day</p>
       </div>
 
