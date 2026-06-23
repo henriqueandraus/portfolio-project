@@ -15,16 +15,16 @@ export default function Skills() {
         <p className="text-[#1E2235]/50 mt-3 text-base">Tools I work with every day</p>
       </div>
 
-      <div className="grid grid-cols-4 gap-5 max-w-[960px] mx-auto">
+      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-5 max-w-[960px] mx-auto">
         {skills.map((skill, i) => (
           <div
             key={skill.name}
-            className={`skill-card flex flex-col items-center justify-center gap-4 bg-white border border-[#1E2235]/10 rounded-2xl p-8 transition-all duration-300 hover:-translate-y-2 hover:border-[#FFCC00] hover:shadow-xl cursor-default fade-up ${staggerClasses[i]}`}
+            className={`skill-card flex flex-col items-center justify-center gap-4 bg-white border border-[#1E2235]/10 rounded-2xl p-5 md:p-8 transition-all duration-300 hover:-translate-y-2 hover:border-[#FFCC00] hover:shadow-xl cursor-default fade-up ${staggerClasses[i]}`}
           >
             <img
               src={skill.icon}
               alt={skill.name}
-              className="skill-img w-[70px] h-[70px] object-contain"
+              className="skill-img w-[50px] h-[50px] md:w-[70px] md:h-[70px] object-contain"
             />
             <h3 className="text-sm font-semibold text-[#1E2235]">{skill.name}</h3>
           </div>
