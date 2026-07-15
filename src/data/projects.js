@@ -27,6 +27,13 @@ const projects = [
     tags: ['React', 'Vite', 'Tailwind CSS', 'Formspree'],
     githubUrl: 'https://github.com/henriqueandraus/portfolio-project',
   },
+  {
+    title: 'Ecommerce API',
+    description:
+      'A RESTful API for e-commerce applications built with Node.js and Express, featuring user authentication (Passport.js + bcrypt), product management, shopping cart, and order checkout. Includes interactive API documentation via Swagger UI.',
+    tags: ['Node.js', 'Express', 'PostgreSQL', 'Passport.js', 'Swagger'],
+    githubUrl: 'https://github.com/henriqueandraus/ecommerce-api',
+  },
 ]
 
 export default projects

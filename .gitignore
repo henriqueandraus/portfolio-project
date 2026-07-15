@@ -3,3 +3,5 @@ dist
 .env
 .claude
 docs/superpowers
+.vercel
+.env*
