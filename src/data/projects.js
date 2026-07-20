@@ -34,6 +34,13 @@ const projects = [
     tags: ['Node.js', 'Express', 'PostgreSQL', 'Passport.js', 'Swagger'],
     githubUrl: 'https://github.com/henriqueandraus/ecommerce-api',
   },
+  {
+    title: 'Naruto Album',
+    description:
+      'Interactive sticker album that simulates a physical Naruto-themed collection, with realistic 3D page-flip animations and synthesized paper sound effects. Built with vanilla JavaScript on the frontend and a Python (FastAPI) backend serving the sticker data.',
+    tags: ['JavaScript', 'HTML/CSS', 'Python', 'FastAPI'],
+    githubUrl: 'https://github.com/henriqueandraus/album-ia',
+  },
 ]
 
 export default projects

@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import projects from '../data/projects'
 
-const staggerClasses = ['stagger-1', 'stagger-2', 'stagger-3', 'stagger-4', 'stagger-5']
+const staggerClasses = ['stagger-1', 'stagger-2', 'stagger-3', 'stagger-4', 'stagger-5', 'stagger-6']
 
 function ProjectCard({ project, stagger }) {
   const [expanded, setExpanded] = useState(false)
