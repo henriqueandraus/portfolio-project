@@ -1,7 +1,20 @@
 import { useState } from 'react'
 import projects from '../data/projects'
 
-const staggerClasses = ['stagger-1', 'stagger-2', 'stagger-3', 'stagger-4', 'stagger-5', 'stagger-6']
+const staggerClasses = [
+  'stagger-1',
+  'stagger-2',
+  'stagger-3',
+  'stagger-4',
+  'stagger-5',
+  'stagger-6',
+  'stagger-7',
+  'stagger-8',
+  'stagger-9',
+  'stagger-10',
+  'stagger-11',
+  'stagger-12',
+]
 
 function ProjectCard({ project, stagger }) {
   const [expanded, setExpanded] = useState(false)
@@ -43,14 +56,27 @@ function ProjectCard({ project, stagger }) {
         ))}
       </div>
 
-      <a
-        href={project.githubUrl}
-        target="_blank"
-        rel="noreferrer"
-        className="inline-block mt-4 text-xs font-semibold text-[#1E2235]/50 hover:text-[#1E2235] transition-colors"
-      >
-        View on GitHub →
-      </a>
+      <div className="flex gap-4">
+        <a
+          href={project.githubUrl}
+          target="_blank"
+          rel="noreferrer"
+          className="inline-block mt-4 text-xs font-semibold text-[#1E2235]/50 hover:text-[#1E2235] transition-colors"
+        >
+          View on GitHub →
+        </a>
+
+        {project.liveUrl && (
+          <a
+            href={project.liveUrl}
+            target="_blank"
+            rel="noreferrer"
+            className="inline-block mt-4 text-xs font-semibold text-[#1E2235]/50 hover:text-[#1E2235] transition-colors"
+          >
+            View Live →
+          </a>
+        )}
+      </div>
     </div>
   )
 }

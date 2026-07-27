@@ -41,6 +41,14 @@ const projects = [
     tags: ['JavaScript', 'HTML/CSS', 'Python', 'FastAPI'],
     githubUrl: 'https://github.com/henriqueandraus/album-ia',
   },
+  {
+    title: 'Ecommerce Store',
+    description:
+      'Full-stack e-commerce platform that extends the Ecommerce API with a production-ready React client. Features username/password and Google OAuth authentication, a persistent shopping cart, real payment processing via Stripe, and order history. Deployed live on Render.',
+    tags: ['React', 'Node.js', 'Express', 'PostgreSQL', 'Stripe'],
+    githubUrl: 'https://github.com/henriqueandraus/ecommerce-project',
+    liveUrl: 'https://ecommerce-project-d4l8.onrender.com/',
+  },
 ]
 
 export default projects
